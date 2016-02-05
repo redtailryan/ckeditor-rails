@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ['ryan@redtailtechnoogy.com.com']
   gem.description   = %q{CKEditor is a javascript library of the WYSIWYG rich-text editor. This gem integrates CKEditor with Rails asset pipeline for easy of use.}
   gem.summary       = %q{Integrate CKEditor javascript library with Rails asset pipeline}
-  gem.homepage      = 'https://github.com/redtailtech/redtail_ckeditor'
+  gem.homepage      = 'https://github.com/redtailryan/ckeditor-rails'
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   gem.files         = `git ls-files`.split("\n")
