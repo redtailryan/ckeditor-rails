@@ -2,11 +2,11 @@
 require File.expand_path('../lib/ckeditor-rails/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ['Tse-Ching Ho']
-  gem.email         = ['tsechingho@gmail.com']
+  gem.authors       = ['Ryan Richwine']
+  gem.email         = ['ryan@redtailtechnoogy.com.com']
   gem.description   = %q{CKEditor is a javascript library of the WYSIWYG rich-text editor. This gem integrates CKEditor with Rails asset pipeline for easy of use.}
   gem.summary       = %q{Integrate CKEditor javascript library with Rails asset pipeline}
-  gem.homepage      = 'https://github.com/tsechingho/ckeditor-rails'
+  gem.homepage      = 'https://github.com/redtailtech/redtail_ckeditor'
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   gem.files         = `git ls-files`.split("\n")

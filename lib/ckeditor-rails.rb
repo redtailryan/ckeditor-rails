@@ -23,33 +23,21 @@ module Ckeditor
 
       def default_plugins
         %W[
-          a11yhelp
-          about
           clipboard
-          colordialog
+          justify
           dialog
-          div
-          find
-          flash
-          forms
           iframe
           image
           link
-          liststyle
           pastefromword
-          preview
-          scayt
-          smiley
           specialchar
+          tab
           table
-          tabletools
-          templates
-          wsc
         ]
       end
 
       def default_skins
-        %w[moono]
+        %w[minimalist]
       end
     end
 
